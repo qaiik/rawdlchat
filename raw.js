@@ -9,7 +9,6 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
     'use strict';
 
     var style = document.createElement('style');
@@ -67,4 +66,3 @@
 
         window.URL.revokeObjectURL(url);
     }
-})();
